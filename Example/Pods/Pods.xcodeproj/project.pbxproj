@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069437A1BE26AD2398E7C962A8035AB6 /* LabelToolbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A128D35371DEBEF1290CD19D0AACEB7F /* LabelToolbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1694FC17FD9E7F7EF1B41C3E3810127C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3459FAEB2464894A00DA7848 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3459FAE62464894A00DA7848 /* .gitkeep */; };
+		3459FAEE2464894A00DA7848 /* LabelToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459FAEA2464894A00DA7848 /* LabelToolbar.swift */; };
+		4832800678C8E0AF1F0E3910F33BC729 /* Pods-LabelToolbar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F01303F9CC0690674A416B09F0E96E /* Pods-LabelToolbar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C10999F42C178B9A8E0BD8AB226A8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5D9A60CDB27F96163F74C6A0E42B69C9 /* Pods-LabelToolbar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7214261DF0CC0D59B401A6398EA5D32 /* Pods-LabelToolbar_Example-dummy.m */; };
+		679353170802A12195D55C18DAE5398D /* Pods-LabelToolbar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68680CCD87DB01AD36A309F3625061A0 /* Pods-LabelToolbar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D021C94A282688EE0AF29B64AD00687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		920A7B4EA6E5169862D82348F5AFD436 /* Pods-LabelToolbar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A06530EA2B2182DED4E660371461DE3F /* Pods-LabelToolbar_Tests-dummy.m */; };
+		E7E0539A349C7A09C81C69258EF40D66 /* LabelToolbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A882001F29E6D0D94D685B202961F /* LabelToolbar-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DEE11ECD1C932BB976B2973557D07D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB58A574E9460C7CEABD23363D2BEB59;
+			remoteInfo = LabelToolbar;
+		};
+		B3F0905CE7857D54C3335AC464D0FA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B040518428F36250E9C56C71F9FA3A4;
+			remoteInfo = "Pods-LabelToolbar_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F0A0B5E702D99CFF742AF9C3E82A7F /* LabelToolbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LabelToolbar.debug.xcconfig; sourceTree = "<group>"; };
+		09A8F8E8A2134EAD9CF7567F0B0152EE /* Pods-LabelToolbar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelToolbar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0C01E4881723BA8E657728D98FF96A16 /* Pods-LabelToolbar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelToolbar_Tests-Info.plist"; sourceTree = "<group>"; };
+		283D54F722A895B8C1FB43E562302995 /* LabelToolbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LabelToolbar-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3459FAE62464894A00DA7848 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3459FAEA2464894A00DA7848 /* LabelToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelToolbar.swift; sourceTree = "<group>"; };
+		35EB8A3C32DCE0B9C515DD0C682EA05D /* Pods-LabelToolbar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LabelToolbar_Tests.modulemap"; sourceTree = "<group>"; };
+		3B3A882001F29E6D0D94D685B202961F /* LabelToolbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LabelToolbar-dummy.m"; sourceTree = "<group>"; };
+		41AFE3460BA2FB8D27F9AB0B79355A02 /* Pods-LabelToolbar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LabelToolbar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52196F7465FD2C94C7AFE9C79C6B580B /* Pods-LabelToolbar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LabelToolbar_Example.modulemap"; sourceTree = "<group>"; };
+		54BD638B093B687DB430C911CF73342C /* Pods-LabelToolbar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelToolbar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5AD931989061E60D7B9987073365430D /* LabelToolbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LabelToolbar.release.xcconfig; sourceTree = "<group>"; };
+		5F79382EB246F7985A3FEE59B195496C /* Pods_LabelToolbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabelToolbar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD7C91CF1DCB5A710710E730237D252 /* LabelToolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LabelToolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B0239E3BBE2F58A4789A9F76872FD5 /* LabelToolbar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LabelToolbar-Info.plist"; sourceTree = "<group>"; };
+		68680CCD87DB01AD36A309F3625061A0 /* Pods-LabelToolbar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LabelToolbar_Example-umbrella.h"; sourceTree = "<group>"; };
+		865B2BA6AAE267C4E7C5D6A1375028BE /* LabelToolbar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LabelToolbar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		896E2E87D7CE9F43513D7E479008114D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9090C4D4C98EE3770D2CB06FA94002DB /* Pods-LabelToolbar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelToolbar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		97F349458B711034D18B7190581B817B /* Pods-LabelToolbar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelToolbar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0105D5475A75106F58B881359B8DD9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A06530EA2B2182DED4E660371461DE3F /* Pods-LabelToolbar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LabelToolbar_Tests-dummy.m"; sourceTree = "<group>"; };
+		A128D35371DEBEF1290CD19D0AACEB7F /* LabelToolbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LabelToolbar-umbrella.h"; sourceTree = "<group>"; };
+		B026FEF392F003A34A886D0CF3C340AE /* Pods-LabelToolbar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LabelToolbar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D982FE3EED51C3A22EC3C1A0F184E85C /* Pods_LabelToolbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabelToolbar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA558C843E3C21F3EE1D798BC859CD25 /* Pods-LabelToolbar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelToolbar_Example-Info.plist"; sourceTree = "<group>"; };
+		E1C9A2E91AC420B0476716DC0EA4B76E /* LabelToolbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LabelToolbar.modulemap; sourceTree = "<group>"; };
+		E8EC34B9D0F8195A66A6D9587DD82FBD /* Pods-LabelToolbar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelToolbar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBA31BFB2C44AE0A94830F4187CEAE54 /* Pods-LabelToolbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelToolbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F7214261DF0CC0D59B401A6398EA5D32 /* Pods-LabelToolbar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LabelToolbar_Example-dummy.m"; sourceTree = "<group>"; };
+		F8F01303F9CC0690674A416B09F0E96E /* Pods-LabelToolbar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LabelToolbar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FC8EC8C52FC0DBC1738F9389A9A65C79 /* Pods-LabelToolbar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LabelToolbar_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C1EA237C72C4F6BF1D66FF6DA73AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D021C94A282688EE0AF29B64AD00687 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6485E6BAE96088A4513577C2D83A1BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C10999F42C178B9A8E0BD8AB226A8DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D282A231AAB4D638CAFB7AC5B4E6B3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1694FC17FD9E7F7EF1B41C3E3810127C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD8792A61AFCE82DAD2F8176A2BE86E /* LabelToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				3459FAE52464894A00DA7848 /* Assets */,
+				3459FAE72464894A00DA7848 /* Classes */,
+				7A11C3144A13A3E9B94DAAA065BC4553 /* Pod */,
+				B4B23EB903481CE25E104848BF4EEF73 /* Support Files */,
+			);
+			name = LabelToolbar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3459FAE52464894A00DA7848 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3459FAE62464894A00DA7848 /* .gitkeep */,
+			);
+			name = Assets;
+			path = LabelToolbar/Assets;
+			sourceTree = "<group>";
+		};
+		3459FAE72464894A00DA7848 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3459FAEA2464894A00DA7848 /* LabelToolbar.swift */,
+			);
+			name = Classes;
+			path = LabelToolbar/Classes;
+			sourceTree = "<group>";
+		};
+		499029D801339F3773E14B433F2E6AE1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CD8792A61AFCE82DAD2F8176A2BE86E /* LabelToolbar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		57DECB4FB4AD1AA7FC738C88E3697E0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FD7C91CF1DCB5A710710E730237D252 /* LabelToolbar.framework */,
+				D982FE3EED51C3A22EC3C1A0F184E85C /* Pods_LabelToolbar_Example.framework */,
+				5F79382EB246F7985A3FEE59B195496C /* Pods_LabelToolbar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A11C3144A13A3E9B94DAAA065BC4553 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				865B2BA6AAE267C4E7C5D6A1375028BE /* LabelToolbar.podspec */,
+				A0105D5475A75106F58B881359B8DD9C /* LICENSE */,
+				896E2E87D7CE9F43513D7E479008114D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A503F49424A60F4C9143411FC4EE233E /* Pods-LabelToolbar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				35EB8A3C32DCE0B9C515DD0C682EA05D /* Pods-LabelToolbar_Tests.modulemap */,
+				B026FEF392F003A34A886D0CF3C340AE /* Pods-LabelToolbar_Tests-acknowledgements.markdown */,
+				E8EC34B9D0F8195A66A6D9587DD82FBD /* Pods-LabelToolbar_Tests-acknowledgements.plist */,
+				A06530EA2B2182DED4E660371461DE3F /* Pods-LabelToolbar_Tests-dummy.m */,
+				0C01E4881723BA8E657728D98FF96A16 /* Pods-LabelToolbar_Tests-Info.plist */,
+				F8F01303F9CC0690674A416B09F0E96E /* Pods-LabelToolbar_Tests-umbrella.h */,
+				97F349458B711034D18B7190581B817B /* Pods-LabelToolbar_Tests.debug.xcconfig */,
+				54BD638B093B687DB430C911CF73342C /* Pods-LabelToolbar_Tests.release.xcconfig */,
+			);
+			name = "Pods-LabelToolbar_Tests";
+			path = "Target Support Files/Pods-LabelToolbar_Tests";
+			sourceTree = "<group>";
+		};
+		B4B23EB903481CE25E104848BF4EEF73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9A2E91AC420B0476716DC0EA4B76E /* LabelToolbar.modulemap */,
+				3B3A882001F29E6D0D94D685B202961F /* LabelToolbar-dummy.m */,
+				64B0239E3BBE2F58A4789A9F76872FD5 /* LabelToolbar-Info.plist */,
+				283D54F722A895B8C1FB43E562302995 /* LabelToolbar-prefix.pch */,
+				A128D35371DEBEF1290CD19D0AACEB7F /* LabelToolbar-umbrella.h */,
+				03F0A0B5E702D99CFF742AF9C3E82A7F /* LabelToolbar.debug.xcconfig */,
+				5AD931989061E60D7B9987073365430D /* LabelToolbar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LabelToolbar";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				499029D801339F3773E14B433F2E6AE1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				57DECB4FB4AD1AA7FC738C88E3697E0E /* Products */,
+				D59F278C153300D46B264D2752D0D47F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4749AE3FC2B6623E2116980623AC56C /* Pods-LabelToolbar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				52196F7465FD2C94C7AFE9C79C6B580B /* Pods-LabelToolbar_Example.modulemap */,
+				41AFE3460BA2FB8D27F9AB0B79355A02 /* Pods-LabelToolbar_Example-acknowledgements.markdown */,
+				9090C4D4C98EE3770D2CB06FA94002DB /* Pods-LabelToolbar_Example-acknowledgements.plist */,
+				F7214261DF0CC0D59B401A6398EA5D32 /* Pods-LabelToolbar_Example-dummy.m */,
+				FC8EC8C52FC0DBC1738F9389A9A65C79 /* Pods-LabelToolbar_Example-frameworks.sh */,
+				DA558C843E3C21F3EE1D798BC859CD25 /* Pods-LabelToolbar_Example-Info.plist */,
+				68680CCD87DB01AD36A309F3625061A0 /* Pods-LabelToolbar_Example-umbrella.h */,
+				EBA31BFB2C44AE0A94830F4187CEAE54 /* Pods-LabelToolbar_Example.debug.xcconfig */,
+				09A8F8E8A2134EAD9CF7567F0B0152EE /* Pods-LabelToolbar_Example.release.xcconfig */,
+			);
+			name = "Pods-LabelToolbar_Example";
+			path = "Target Support Files/Pods-LabelToolbar_Example";
+			sourceTree = "<group>";
+		};
+		D59F278C153300D46B264D2752D0D47F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4749AE3FC2B6623E2116980623AC56C /* Pods-LabelToolbar_Example */,
+				A503F49424A60F4C9143411FC4EE233E /* Pods-LabelToolbar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		549157EAE645BB4D0CBA36A4F3DB648F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679353170802A12195D55C18DAE5398D /* Pods-LabelToolbar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD45BDA8B21859690459A9ADA7D8DAF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4832800678C8E0AF1F0E3910F33BC729 /* Pods-LabelToolbar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD48D1411F256FFB142D9131841DE1EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069437A1BE26AD2398E7C962A8035AB6 /* LabelToolbar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B040518428F36250E9C56C71F9FA3A4 /* Pods-LabelToolbar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BB1D48939EAF7D053C0B63A359B421 /* Build configuration list for PBXNativeTarget "Pods-LabelToolbar_Example" */;
+			buildPhases = (
+				549157EAE645BB4D0CBA36A4F3DB648F /* Headers */,
+				213D633F5970C01315D434494EF7F4C8 /* Sources */,
+				24C1EA237C72C4F6BF1D66FF6DA73AE8 /* Frameworks */,
+				45D143B752478F6D6D2D55F9676B8033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CC88468ECB58AE59FD4B8C561B143E /* PBXTargetDependency */,
+			);
+			name = "Pods-LabelToolbar_Example";
+			productName = "Pods-LabelToolbar_Example";
+			productReference = D982FE3EED51C3A22EC3C1A0F184E85C /* Pods_LabelToolbar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99ED75FD0C21E4F5AB2D4530262CD170 /* Pods-LabelToolbar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82AE52CE4C75D39BFD89881EBA3C3DB /* Build configuration list for PBXNativeTarget "Pods-LabelToolbar_Tests" */;
+			buildPhases = (
+				AD45BDA8B21859690459A9ADA7D8DAF8 /* Headers */,
+				BBEC7E036C92EAF6349AFA6163AA31B4 /* Sources */,
+				D282A231AAB4D638CAFB7AC5B4E6B3B8 /* Frameworks */,
+				A69D47F09DAAD345A66D8769EF197D11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A5E55A8309325DC24BCCBEFDFCB433F /* PBXTargetDependency */,
+			);
+			name = "Pods-LabelToolbar_Tests";
+			productName = "Pods-LabelToolbar_Tests";
+			productReference = 5F79382EB246F7985A3FEE59B195496C /* Pods_LabelToolbar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB58A574E9460C7CEABD23363D2BEB59 /* LabelToolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05FE31D6DE006219346411FAB2F27AD /* Build configuration list for PBXNativeTarget "LabelToolbar" */;
+			buildPhases = (
+				DD48D1411F256FFB142D9131841DE1EB /* Headers */,
+				C7C22B6899071EB53F0A452EB6B6E7D6 /* Sources */,
+				6485E6BAE96088A4513577C2D83A1BB1 /* Frameworks */,
+				66181F76437FBC22B37990F2C93294B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabelToolbar;
+			productName = LabelToolbar;
+			productReference = 5FD7C91CF1DCB5A710710E730237D252 /* LabelToolbar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					CB58A574E9460C7CEABD23363D2BEB59 = {
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 57DECB4FB4AD1AA7FC738C88E3697E0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB58A574E9460C7CEABD23363D2BEB59 /* LabelToolbar */,
+				1B040518428F36250E9C56C71F9FA3A4 /* Pods-LabelToolbar_Example */,
+				99ED75FD0C21E4F5AB2D4530262CD170 /* Pods-LabelToolbar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45D143B752478F6D6D2D55F9676B8033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66181F76437FBC22B37990F2C93294B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3459FAEB2464894A00DA7848 /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69D47F09DAAD345A66D8769EF197D11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		213D633F5970C01315D434494EF7F4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9A60CDB27F96163F74C6A0E42B69C9 /* Pods-LabelToolbar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEC7E036C92EAF6349AFA6163AA31B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920A7B4EA6E5169862D82348F5AFD436 /* Pods-LabelToolbar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C22B6899071EB53F0A452EB6B6E7D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3459FAEE2464894A00DA7848 /* LabelToolbar.swift in Sources */,
+				E7E0539A349C7A09C81C69258EF40D66 /* LabelToolbar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57CC88468ECB58AE59FD4B8C561B143E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LabelToolbar;
+			target = CB58A574E9460C7CEABD23363D2BEB59 /* LabelToolbar */;
+			targetProxy = 5DEE11ECD1C932BB976B2973557D07D9 /* PBXContainerItemProxy */;
+		};
+		7A5E55A8309325DC24BCCBEFDFCB433F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LabelToolbar_Example";
+			target = 1B040518428F36250E9C56C71F9FA3A4 /* Pods-LabelToolbar_Example */;
+			targetProxy = B3F0905CE7857D54C3335AC464D0FA61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CBFDD939884BE89E18F057AC0E3B996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD931989061E60D7B9987073365430D /* LabelToolbar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LabelToolbar/LabelToolbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LabelToolbar/LabelToolbar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LabelToolbar/LabelToolbar.modulemap";
+				PRODUCT_MODULE_NAME = LabelToolbar;
+				PRODUCT_NAME = LabelToolbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C7742C1E994FCAC9CA76CFA71F672CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F349458B711034D18B7190581B817B /* Pods-LabelToolbar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LabelToolbar_Tests/Pods-LabelToolbar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LabelToolbar_Tests/Pods-LabelToolbar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F59C5E1033655DAFB50A0DD11B194D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F0A0B5E702D99CFF742AF9C3E82A7F /* LabelToolbar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LabelToolbar/LabelToolbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LabelToolbar/LabelToolbar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LabelToolbar/LabelToolbar.modulemap";
+				PRODUCT_MODULE_NAME = LabelToolbar;
+				PRODUCT_NAME = LabelToolbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D2A0092F40887C583D56280F6934286F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A8F8E8A2134EAD9CF7567F0B0152EE /* Pods-LabelToolbar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LabelToolbar_Example/Pods-LabelToolbar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LabelToolbar_Example/Pods-LabelToolbar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E533A7A410E8557E7BE223B0A67FBA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA31BFB2C44AE0A94830F4187CEAE54 /* Pods-LabelToolbar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LabelToolbar_Example/Pods-LabelToolbar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LabelToolbar_Example/Pods-LabelToolbar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F450BF681932913E91AB1F4D94D12EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BD638B093B687DB430C911CF73342C /* Pods-LabelToolbar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LabelToolbar_Tests/Pods-LabelToolbar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LabelToolbar_Tests/Pods-LabelToolbar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BB1D48939EAF7D053C0B63A359B421 /* Build configuration list for PBXNativeTarget "Pods-LabelToolbar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E533A7A410E8557E7BE223B0A67FBA19 /* Debug */,
+				D2A0092F40887C583D56280F6934286F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82AE52CE4C75D39BFD89881EBA3C3DB /* Build configuration list for PBXNativeTarget "Pods-LabelToolbar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7742C1E994FCAC9CA76CFA71F672CE /* Debug */,
+				F450BF681932913E91AB1F4D94D12EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05FE31D6DE006219346411FAB2F27AD /* Build configuration list for PBXNativeTarget "LabelToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F59C5E1033655DAFB50A0DD11B194D4 /* Debug */,
+				0CBFDD939884BE89E18F057AC0E3B996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

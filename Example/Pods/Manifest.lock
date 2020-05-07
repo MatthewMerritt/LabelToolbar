@@ -1,0 +1,16 @@
+PODS:
+  - LabelToolbar (0.1.0)
+
+DEPENDENCIES:
+  - LabelToolbar (from `../`)
+
+EXTERNAL SOURCES:
+  LabelToolbar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LabelToolbar: 20e2f858c2651f28e7bd5f8c38d27dee80fb3050
+
+PODFILE CHECKSUM: 346306d8b2457cb3b36f8fab9c79545a0e0c8168
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module LabelToolbar {
+  umbrella header "LabelToolbar-umbrella.h"
+
+  export *
+  module * { export * }
+}

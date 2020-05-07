@@ -1,0 +1,22 @@
+{
+  "name": "LabelToolbar",
+  "version": "0.1.0",
+  "summary": "A short description of LabelToolbar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MatthewMerritt/LabelToolbar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MatthewMerritt": "matthew.merritt@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/MatthewMerritt/LabelToolbar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LabelToolbar/Classes/**/*"
+}
