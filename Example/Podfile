@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LabelToolbar_Example' do
+  pod 'LabelToolbar', :path => '../'
+
+  target 'LabelToolbar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
